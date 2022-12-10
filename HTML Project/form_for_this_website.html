@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/Form-style.css">
+</head>
+<body >
+
+    <form action="">
+        <header>-----------------------------------------------------------Order Details---------------------------------------------------------------- </header>
+        <p><h2>Products</h2></p >
+        <p>Product Type: 
+            <select name="item" id="item">
+                <option value="">----select your item-----</option>
+                <option value="Shirts">Shirts</option>
+                <option value="Trousers">Trousers</option>
+                <option value="Jeans">Jeans</option>
+                <option value="Jackets">Jackets</option>
+
+            </select>
+        </p>
+            <p>Brand:
+                <select name="brand" id="brand">
+                   <option value="">Select your favourite Brand</option>
+                   <option value="Zara">Zara</option>
+                   <option value="Woodland">Woodland</option>
+                   <option value="Gucci">Gucci</option>
+                   <option value="Montee Carlo">Montee Carlo</option>
+                
+
+                
+
+            </select>
+        </p>
+        <p><h2>Shoes Items</h2></p>
+        <p>
+            Item type:
+            <select name="item" id="item">
+                <option value="">Select your Item</option>
+                <option value="Sports wear">Sports wear</option>
+                <option value="Casuals">Casuals</option>
+                <option value="Formals">Formals</option>
+                <option value="Slippers">Slippers</option>
+            </select>
+        </p>
+        <hr>
+        <p>
+            Brand:
+            <select name="brand" id="brand">
+                <option value="">Selct your favourite Brand</option>
+                <option value="Sparks">Sparks</option>
+                <option value="Nike">Nike</option>
+                <option value="Adidas">Adidas</option>
+                <option value="Bata">Bata</option>
+                <option value="Campus">Campus</option>
+            </select>
+            
+        </p>
+       <h2> Contact Details</h2>
+
+        <p> Name: *<input type="name" required></p>
+        <fieldset>
+            <legend>Gender *</legend>
+            <p>
+
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+                Trans-Gender <input type="radio" name="gender" id="TranshGender">
+            </p>
+        </fieldset>
+       <p>
+            Address:<textarea name="address" id="address"
+        cols="20" rows="2"></textarea>
+       </p>
+       <p>Email: <input type="email" name="email" id="email" required></p>
+       <p>PinCode: <input type="number" name="pincode" id="pincode" required></p>
+       <h2>Payment-Details:</h2>
+       <p>Card Type: 
+        <select name="Card_type" id="card_type">
+        <option value="">Select Card Type</option>
+        <option value="Master Card">Master Card</option>
+        <option value="SBI">SBI Card</option>
+        <option value="Credit Card">Credit Card</option>
+        <option value="Rupay">Rupay</option>
+       </p>
+    </select>
+    <p>
+        Card Number:<input type="number" id="number" required>
+    </p>
+    <p>Expiration Date:<input type="date" name="exp_date" id="exp_date" required></p>
+    <p>CVV Number:<input type="password" name="cvv" id="number" required></p>
+    <input type="submit" value="Pay Now">
+
+    </form>
+    
+</body>
+</html>

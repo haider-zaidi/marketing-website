@@ -1,0 +1,99 @@
+/* Css styling for form page */
+header{
+    text-align: center;
+    font-size: 30px;
+    font: bold;
+    color:rgb(216, 174, 24);
+}
+#abc{
+    text-align: center;
+}
+/* p{
+    text-align: center;
+} */
+body{
+    
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75)
+      ), url("../img/img9.jpg");
+    /* background-color: argb(); */
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+    color:rgb(241, 108, 13);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    
+    
+
+}
+
+/* form{
+    background-image: url();
+} */
+input, textarea, select, button{
+    color: rgb(246, 11, 148);
+    width: 150px;
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+
+/* #p{
+    background-color: blue;
+} */
+h2{
+    color: rgb(27, 27, 26);
+    text-align: center;
+    
+    background-color: rgb(218, 217, 182);
+}
+fieldset{
+    position: relative;
+}
+legend{
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+textarea{
+    display: block;
+    padding: 10px;
+    margin: 10px 30 20 -10px;
+    width: 100%;
+    height: 90%;
+    border-right: 1px solid;
+    overflow: auto;
+
+}
+button{
+    padding: 5px;
+    font: bold 0.6em sans-serif;
+    border: 2px solid #333;
+    cursor: pointer;
+    transform: rotate(-1.5deg);
+
+}
+button:after{
+    content: ">>>";
+}
+button:hover,button:focus{
+    outline: none;
+    background: #000;
+    color: #fff;
+}
+/* .p2{
+    text-align: center;
+} */
+/* .p{
+    background-image: url(img\photo-For-Form.jpg);
+} */
+section,font{
+    color: greenyellow;
+}
+
